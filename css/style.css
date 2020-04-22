@@ -8,3 +8,7 @@
             height: 1em;
             padding-left: .7em;
         }
+        
+        .icon {
+            text-align: end;
+        }
