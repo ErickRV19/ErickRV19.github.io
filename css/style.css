@@ -1,15 +1,20 @@
-        a.title-header {
-            text-transform: uppercase !important;
-            text-decoration: bold !important;
-        }
-        
-        .img-title {
-            width: 1em;
-            height: 1em;
-            padding-left: .7em;
-        }
-        
-        .icon {
-            text-align: end;
-            color: ;
-        }
+.container {
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-title {
+    width: 1em;
+    height: 1em;
+    padding-left: .7em;
+}
+
+.icon {
+    text-align: end;
+    color: ;
+}
+
+.name {
+    padding: 1em;
+    text-transform: uppercase;
+    text-decoration: bold;
+}
