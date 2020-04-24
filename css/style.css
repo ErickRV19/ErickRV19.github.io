@@ -10,11 +10,30 @@
 
 .icon {
     text-align: end;
-    color: ;
 }
 
 .name {
+    font-size: larger;
     padding: 1em;
     text-transform: uppercase;
     text-decoration: bold;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #06a77d;
+    text-decoration: wavy;
+    color: white;
+    padding: 2em 0em;
+}
+
+.footer .selected {
+    align-self: flex-end;
+}
+
+.resaltado {
+    font-weight: 900;
+    font-size: larger;
 }
