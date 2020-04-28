@@ -23,6 +23,11 @@
     text-decoration: bold;
 }
 
+.jumbotron {
+    color: white;
+    background-image: url(/img/back.jpg);
+}
+
 .footer {
     display: flex;
     flex-direction: column;
