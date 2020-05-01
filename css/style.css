@@ -54,3 +54,14 @@
 .lenguajes h5 {
     padding-left: .5em;
 }
+
+.imagenProyecto {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.bottomProyecto {
+    display: flex;
+    justify-content: space-between;
+}
