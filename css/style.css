@@ -46,6 +46,11 @@
     font-size: larger;
 }
 
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .lenguajes {
     display: flex;
     justify-content: start;
