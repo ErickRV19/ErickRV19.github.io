@@ -125,6 +125,7 @@
                                                 color: gray;
                                                 display: flex;
                                                 flex-wrap: wrap;
+                                                align-items: center;
                                                 top: 17px;
                                                 left: 41vw;
                                             }
@@ -164,6 +165,7 @@
                                                 flex-direction: column;
                                                 align-items: center;
                                                 top: 0px;
+                                                left: 38vw;
                                             }
                                             .footer-return img {
                                                 background-color: rgb(128, 119, 119);
