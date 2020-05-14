@@ -1,224 +1,301 @@
-                                        .main {
-                                            background-color: white;
-                                        }
-                                        
-                                        .container {
-                                            font-family: 'Roboto', sans-serif;
-                                            color: gray;
-                                        }
-                                        
-                                        .img-title {
-                                            width: 1em;
-                                            height: 1em;
-                                            padding-left: .7em;
-                                        }
-                                        
-                                        .icon {
-                                            text-align: end;
-                                        }
-                                        
-                                        .title-page {
-                                            font-size: x-large;
-                                            text-transform: uppercase;
-                                            text-decoration: bold;
-                                        }
-                                        
-                                        .jumbotron {
-                                            color: white;
-                                            background-color: #3085B3 !important;
-                                        }
-                                        
-                                        .footer .selected {
-                                            align-self: flex-end;
-                                        }
-                                        
-                                        .resaltado {
-                                            font-weight: 900;
-                                            font-size: larger;
-                                        }
-                                        
-                                        .proyectos {
-                                            display: flex;
-                                            flex-wrap: wrap;
-                                        }
-                                        
-                                        .lenguajes {
-                                            display: flex;
-                                            justify-content: start;
-                                        }
-                                        
-                                        .lenguajes h5 {
-                                            padding-left: .5em;
-                                        }
-                                        
-                                        .imagenProyecto {
-                                            display: flex;
-                                            justify-content: center;
-                                            padding: 1em 0em;
-                                        }
-                                        
-                                        .bottomProyecto {
-                                            display: flex;
-                                            justify-content: space-between;
-                                        }
-                                        
-                                        .promo {
-                                            display: flex;
-                                            padding: 3em;
-                                        }
-                                        
-                                        .promo-title {
-                                            display: inline-block;
-                                            padding-left: 5em;
-                                            padding-top: 3em;
-                                            color: gray;
-                                            font-size: xx-large;
-                                            font-weight: 800;
-                                        }
-                                        
-                                        .contactame {
-                                            color: white;
-                                            background-color: #3085B3;
-                                            padding: 6px;
-                                            border-radius: 1em;
-                                        }
-                                        
-                                        .footer {
-                                            position: relative;
-                                            color: #fff;
-                                        }
-                                        
-                                        .footer-return {
-                                            display: flex;
-                                            flex-direction: column;
-                                            align-items: center;
-                                            position: absolute;
-                                            text-decoration: wavy;
-                                            top: 170px;
-                                            left: 48%;
-                                            z-index: 2;
-                                        }
-                                        
-                                        .footer-img {
-                                            position: absolute;
-                                            z-index: 1;
-                                        }
-                                        
-                                        .footer-img img {
-                                            width: 99vw;
-                                        }
-                                        
-                                        @media screen and (max-width: 768px) {
-                                            .promo {
-                                                padding: 3em 0em;
-                                            }
-                                            .promo-title {
-                                                padding-left: 1em;
-                                                padding-top: 1em;
-                                                font-size: x-large;
-                                            }
-                                            .promo img {
-                                                height: 45vh;
-                                                width: 45vw;
-                                            }
-                                            .footer-return {
-                                                color: gray;
-                                                display: flex;
-                                                flex-wrap: wrap;
-                                                align-items: center;
-                                                left: 45%;
-                                                top: 17px;
-                                            }
-                                            .footer-return img {
-                                                background-color: rgb(128, 119, 119);
-                                                border-radius: 2em;
-                                            }
-                                            .footer-img img {
-                                                height: 30vh;
-                                                width: 100vw;
-                                            }
-                                        }
-                                        
-                                        @media screen and (max-width: 470px) {
-                                            .promo {
-                                                padding: 1em 0em;
-                                                display: flex;
-                                                flex-direction: column;
-                                                align-items: center;
-                                                padding-bottom: 90px;
-                                            }
-                                            .promo-title {
-                                                font-size: large;
-                                            }
-                                            .promo img {
-                                                height: 30vh;
-                                                width: 65vw;
-                                            }
-                                            .footer {
-                                                padding-top: 40px;
-                                                display: flex;
-                                                flex-wrap: wrap;
-                                            }
-                                            .footer-return {
-                                                color: gray;
-                                                display: flex;
-                                                flex-direction: column;
-                                                align-items: center;
-                                                top: 0px;
-                                                left: 37%;
-                                            }
-                                            .footer-return img {
-                                                background-color: rgb(128, 119, 119);
-                                                border-radius: 2em;
-                                            }
-                                            .footer-img img {
-                                                height: 0%;
-                                                width: 99vw;
-                                            }
-                                            .contacto img {
-                                                height: 40px;
-                                                width: 40px;
-                                            }
-                                        }
-                                        
-                                        @media screen and (max-width: 376px) {
-                                            .promo {
-                                                padding: 1em 0em;
-                                                display: flex;
-                                                flex-direction: column;
-                                                align-items: center;
-                                                padding-bottom: 90px;
-                                            }
-                                            .promo-title {
-                                                font-size: large;
-                                            }
-                                            .promo img {
-                                                height: 30vh;
-                                                width: 65vw;
-                                            }
-                                            .footer {
-                                                padding-top: 40px;
-                                                display: flex;
-                                                flex-wrap: wrap;
-                                            }
-                                            .footer-return {
-                                                color: gray;
-                                                display: flex;
-                                                flex-direction: column;
-                                                align-items: center;
-                                                top: 0px;
-                                                left: 35%;
-                                            }
-                                            .footer-return img {
-                                                background-color: rgb(128, 119, 119);
-                                                border-radius: 2em;
-                                            }
-                                            .footer-img img {
-                                                height: 0%;
-                                                width: 99vw;
-                                            }
-                                            .contacto img {
-                                                height: 40px;
-                                                width: 40px;
-                                            }
-                                        }
+:root {
+    --main-font-color: #2484AF;
+    --second-font-color: #FF515F;
+    --neutral-font-color: gray;
+}
+
+.main {
+    background-color: white;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+
+.img-title {
+    width: 1em;
+    height: 1em;
+    padding-left: .7em;
+}
+
+.icon {
+    text-align: end;
+}
+
+.title-page {
+    font-size: x-large;
+    text-transform: uppercase;
+    text-decoration: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10vh;
+}
+
+.heroText {
+    color: var(--neutral-font-color);
+    padding-top: 15vh;
+}
+
+.heroText h1 {
+    color: var(--main-font-color);
+    font-weight: 800;
+}
+
+.footer .selected {
+    align-self: flex-end;
+}
+
+.resaltado {
+    font-weight: 900;
+    font-size: larger;
+}
+
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lenguajes {
+    display: flex;
+    justify-content: start;
+}
+
+.lenguajes h5 {
+    padding-left: .5em;
+}
+
+.imagenProyecto {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0em;
+}
+
+.bottomProyecto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo {
+    display: flex;
+    padding: 3em;
+}
+
+.promo-title {
+    display: inline-block;
+    padding-left: 5em;
+    padding-top: 3em;
+    color: gray;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.contactame {
+    color: white;
+    background-color: #3085B3;
+    padding: 6px;
+    border-radius: 1em;
+}
+
+.footer {
+    position: relative;
+    color: #fff;
+}
+
+.footer-return {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    text-decoration: wavy;
+    top: 170px;
+    left: 48%;
+    z-index: 2;
+}
+
+.footer-img {
+    position: absolute;
+    z-index: 1;
+}
+
+.footer-img img {
+    width: 99vw;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .heroText {
+        padding: 2vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .heroText h1 {
+        font-size: 5vh;
+    }
+    .heroText h3 {
+        font-size: 3vh;
+    }
+    .hero img {
+        height: 50vh;
+        width: 100vw;
+    }
+    .promo {
+        padding: 3em 0em;
+    }
+    .promo-title {
+        padding-left: 1em;
+        padding-top: 1em;
+        font-size: x-large;
+    }
+    .promo img {
+        height: 45vh;
+        width: 45vw;
+    }
+    .footer-return {
+        color: gray;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        left: 45%;
+        top: 17px;
+    }
+    .footer-return img {
+        background-color: rgb(128, 119, 119);
+        border-radius: 2em;
+    }
+    .footer-img img {
+        height: 30vh;
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .heroText {
+        padding: 2vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .heroText h1 {
+        font-size: 5vh;
+    }
+    .heroText h3 {
+        font-size: 3vh;
+    }
+    .hero img {
+        height: 50vh;
+        width: 100vw;
+    }
+    .promo {
+        padding: 1em 0em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 90px;
+    }
+    .promo-title {
+        font-size: large;
+    }
+    .promo img {
+        height: 30vh;
+        width: 65vw;
+    }
+    .footer {
+        padding-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-return {
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 0px;
+        left: 37%;
+    }
+    .footer-return img {
+        background-color: rgb(128, 119, 119);
+        border-radius: 2em;
+    }
+    .footer-img img {
+        height: 0%;
+        width: 99vw;
+    }
+    .contacto img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .heroText {
+        padding: 2vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .heroText h1 {
+        font-size: 5vh;
+    }
+    .heroText h3 {
+        font-size: 3vh;
+    }
+    .hero img {
+        height: 50vh;
+        width: 100vw;
+    }
+    .promo {
+        padding: 1em 0em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 90px;
+    }
+    .promo-title {
+        font-size: large;
+    }
+    .promo img {
+        height: 30vh;
+        width: 65vw;
+    }
+    .footer {
+        padding-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-return {
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 0px;
+        left: 34%;
+    }
+    .footer-return img {
+        background-color: rgb(128, 119, 119);
+        border-radius: 2em;
+    }
+    .footer-img img {
+        height: 0%;
+        width: 99vw;
+    }
+    .contacto img {
+        height: 40px;
+        width: 40px;
+    }
+}
