@@ -54,7 +54,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 6em;
+}
+
+.acerca h1 {
+    font-size: 3em;
+    color: var(--main-font-color);
+    font-weight: 600;
 }
 
 .acerca p {
