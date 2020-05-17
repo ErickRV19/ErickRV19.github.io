@@ -1,6 +1,7 @@
 :root {
-    --main-font-color: #2484AF;
+    --main-font-color: #3085B3;
     --second-font-color: #FF515F;
+    --accent-color: #2E4050;
     --neutral-font-color: gray;
 }
 
@@ -43,6 +44,71 @@
 .heroText h1 {
     color: var(--main-font-color);
     font-weight: 800;
+    font-size: 3em;
+}
+
+.acerca {
+    position: relative;
+    padding: 5em;
+    color: rgb(128, 119, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6em;
+}
+
+.acerca p {
+    margin-top: .5em;
+    font-size: medium;
+}
+
+.skills {
+    position: relative;
+    padding: 5em;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6em;
+}
+
+.skills-colums {
+    display: flex;
+    padding-top: 2em;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills-lenguajes {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(209, 207, 207);
+    border-radius: 15px;
+    margin: 0em 1.5em;
+    padding: 2em 1em;
+}
+
+.skills-herramientas {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(209, 207, 207);
+    border-radius: 15px;
+    margin: 0em 1.5em;
+    padding: 2em 1em;
+}
+
+.skewed {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 110%;
+    width: 100%;
+    height: 600px;
+    background: rgb(16, 52, 82);
+    z-index: 0;
+    transform: skewY(-4deg);
+    transform-origin: top left;
 }
 
 .footer .selected {
@@ -81,12 +147,17 @@
 
 .promo {
     display: flex;
-    padding: 3em;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.promo img {
+    margin-top: 3em;
 }
 
 .promo-title {
     display: inline-block;
-    padding-left: 5em;
+    padding-left: 2em;
     padding-top: 3em;
     color: gray;
     font-size: xx-large;
