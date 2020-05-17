@@ -314,7 +314,7 @@
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 390px) {
     .hero {
         display: flex;
         flex-wrap: wrap;
