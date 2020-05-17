@@ -335,6 +335,43 @@
         height: 50vh;
         width: 100vw;
     }
+    .acerca {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .acerca h5 {
+        font-size: 1em;
+    }
+    .acerca img {
+        height: 50vh;
+        width: 80vw;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 3vw;
+    }
+    .skills-colums {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-lenguajes {
+        border-width: medium;
+        margin-bottom: 20px;
+    }
+    .skills-herramientas {
+        border-width: medium;
+    }
+    .skewed {
+        width: 109vw;
+        top: 105%;
+        left: -10%;
+        height: 750px;
+    }
     .promo {
         padding: 1em 0em;
         display: flex;
