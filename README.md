@@ -10,6 +10,8 @@
 
 Puedes ver mi pagina en donde conoceras mas sobre mi  ->> [Mi web](https://erickrv19.github.io/ "Mi web")
 
+O puedes ver mi blog en donde hay articulos interesantes  ->> [Mi blog](https://erick-ruiz-blog.netlify.app/ "Mi blog")
+
 ------------
 
 #### Donde puedes contactarme
