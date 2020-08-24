@@ -149,6 +149,89 @@
     display: flex;
     justify-content: space-between;
 }
+ /* carrusel*/
+#subtittle{
+text-align: center;
+}
+.moreProjects {
+    margin-top: 4em;
+    height: 300px;
+    width: 70vw;
+    top: 60px;
+    display: flex;
+   
+  }
+  
+  .moreCard {
+    display: flex;
+    height: 280px;
+    width: 25vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem rgb(182, 182, 182);
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  .moreCard:not(:first-child) {
+      margin-left: -95px;
+  }
+  
+  .moreCard:hover {
+    transform: translateY(-30px);
+    transition: 0.4s ease-out;
+  }
+  
+  .moreCard:hover ~ .moreCard {
+    position: relative;
+    left: 150px;
+    transition: 0.4s ease-out;
+  }
+  
+  .title {
+    color: grey;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+
+  .contenido{
+    padding-top: 3.5em;
+    padding-left: 1em;
+  }
+  .moreCard a{
+   color: grey;
+  }
+  .moreCard a:hover{
+    color: grey;
+    box-shadow: none;
+    text-decoration-line: none;
+   }
+   #verticalImg{
+    width: 8vw;
+    height: 20vh;
+   }
+
+  .moreCard img{
+      width: 15vw;
+      height: 20vh;
+  }
+  .stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+  }
+
+  
+  .moreCard:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+  }
+
 
 .promo {
     display: flex;
@@ -171,9 +254,21 @@
 
 .contactame {
     color: white;
-    background-color: #3085B3;
-    padding: 6px;
+    background-color: #ffffff;
+    padding: .5em;
+    border-style: none;
     border-radius: 1em;
+    color: gray;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.contactame:hover {
+    color: white;
+    background-color: #8f8f8f;
+    padding: .5em;
+    border-style: none;
+    border-radius: 1em;
+    color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .footer {
@@ -200,6 +295,26 @@
 .footer-img img {
     width: 99vw;
 }
+
+.social img{
+    width: 2vw;
+    height: 4vh;
+    margin-top: 1em;
+}
+
+.social img:hover{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border-color: none;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
     .hero {
@@ -250,7 +365,24 @@
         height: 30vh;
         width: 100vw;
     }
+    .social img{
+        width: 5vw;
+        height: 4vh;
+        margin-top: 1em;
+    }
+    
+
 }
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 520px) {
     .hero {
@@ -349,7 +481,24 @@
         height: 40px;
         width: 40px;
     }
+    .social img{
+        width: 5vw;
+        height: 4vh;
+        margin-top: 1em;
+    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 401px) {
     .hero {
@@ -448,4 +597,10 @@
         height: 40px;
         width: 40px;
     }
+    .social img{
+        width: 7vw;
+        height: 5vh;
+        margin-top: 1em;
+    }
+    
 }
