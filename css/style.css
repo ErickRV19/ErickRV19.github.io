@@ -373,6 +373,9 @@ text-align: center;
         height: 4vh;
         margin-top: 1em;
     }
+    h3.title{
+        font-size:  19px;
+    }
     
 
 }
@@ -486,6 +489,42 @@ text-align: center;
     }
     .social img{
         width: 5vw;
+        height: 4vh;
+        margin-top: 1em;
+    }
+    .moreProjects {
+        margin-top: 4em;
+        height: 300px;
+        width: 100vw;
+        top: 60px;
+        display: flex;
+       
+      }
+      
+      .moreCard {
+        display: flex;
+        height: 280px;
+        width: 50vw;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: -1rem 0 3rem rgb(182, 182, 182);
+      /*   margin-left: -50px; */
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+      }
+      #verticalImg{
+        width: 20vw;
+        height: 10vh;
+    
+       }
+    
+      .moreCard img{
+          width: 30vw;
+          height:10vh;
+      }
+      .social img{
+        width: 7vw;
         height: 4vh;
         margin-top: 1em;
     }
@@ -605,5 +644,7 @@ text-align: center;
         height: 5vh;
         margin-top: 1em;
     }
+    
+      
     
 }
