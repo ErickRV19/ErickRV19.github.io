@@ -8,12 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/img/shortcut codigo.png">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -56,9 +58,9 @@
                 </div>
                 <img src="/img/dev.jpg" alt="developer" width="600px" height="500px">
             </section>
-            <section class="acerca">
+            <section  class="acerca">
                 <img src="/img/promoimg.jpg" alt="" height="350px" width="350px">
-                <div class="superposition">
+                <div data-aos="fade-right" data-aos-duration="1500" class="superposition">
                     <h1> Acerca de mi</h1>
                     <h5>Actualmente curso la universidad, la carrera de ingeniería en sistemas computacionales. Participe en el programa Frontend developer de Facebook Developer circle y Platzi.
                         <p> Todos los certificados los puedes ver
@@ -69,7 +71,7 @@
                     <div class="skewed"></div>
                 </section>
             </section>
-            <section class="skills">
+            <section data-aos="fade-left" data-aos-duration="1500" class="skills">
                 <div class="title-skills">
                     <h1>Mis skills</h1>
                 </div>
@@ -103,7 +105,7 @@
             <a href="" name="proyectos"></a>
             <h2>Mejores proyectos</h2>
             <div class="proyectos">
-                <div class="col-md-6 ">
+                <div  class="col-md-6 ">
                     <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative tarjeta">
                         <div class="col p-4 d-flex flex-column position-static ">
                             <strong>
@@ -269,7 +271,7 @@
                   
                 </section>
                 <small>*Click para ir a las paginas</small>
-            <div class="promo">
+            <div data-aos="zoom-in" data-aos-duration="1500" class="promo">
                 <a href="" name="contacto"></a>
                 <img src="/img/promocional.jpg" alt="" height="350px" width="500px">
                 <div class="promo-title">
@@ -343,6 +345,9 @@
 
         <script src="/js/app.js"></script>
         <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script>
+            AOS.init();
+          </script>
 </body>
 
 </html>
