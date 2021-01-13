@@ -228,7 +228,7 @@ text-align: center;
     stroke-dashoffset: 360;
     transition: 0.6s ease-out;
   }
-
+ 
   
   .moreCard:hover .stroke {
     stroke-dashoffset: 100;
@@ -264,6 +264,10 @@ text-align: center;
     color: gray;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
+.texto{
+    font-weight: 400;
+    font-size: large;
+}
 .contactame:hover {
     color: white;
     background-color: #8f8f8f;
@@ -273,7 +277,9 @@ text-align: center;
     color: white;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
-
+.contactame:focus{
+    outline: none; 
+}
 .footer {
     position: relative;
     color: #fff;
